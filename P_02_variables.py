@@ -17,6 +17,6 @@ print(num_string * 5)
 print(love_programming)
 
 # This variable has a problem!
-my_name = "Miss G"
+my_name = ""
 
-
+print(my_name * 9)
