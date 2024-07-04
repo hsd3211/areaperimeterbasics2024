@@ -48,8 +48,8 @@ while keep_going == "":
 
     # get width and height
     width = num_check("Width: ")
-    height = num_check("Height: ")
-    price_per_unit = dollar_check("Cost ($) Per Unit: ")
+    height = num_check("Length: ")
+    price_per_unit = dollar_check("Cost / m: ")
 
     # calculate  perimeter and cost
     perimeter = 2 * (width + height)
@@ -58,7 +58,7 @@ while keep_going == "":
     # display output
     print()
     print(f"Perimeter: {perimeter} units")
-    print(f"Total cost: ${cost:.2f}")
+    print(f"Cost: ${cost:.2f}")
 
     # ask if the user wants to keep going
     keep_going = input("press enter to restart the program or any key to quit ")
